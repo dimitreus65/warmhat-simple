@@ -1,0 +1,423 @@
+{
+  "catalogPage": {
+    "title": "Product Catalog",
+    "description": "We offer only high-quality hand-knitted goods with fast delivery throughout Europe",
+    "allCategories": "All",
+    "hatsCategory": "Hats",
+    "scarvesCategory": "Scarves",
+    "combinationsCategory": "Combinations",
+    "loading": "Loading products...",
+    "error": "Error: {{errorMessage}}",
+    "showMore": "Show more products",
+    "addToCart": "Add to cart"
+  },
+  "hero": {
+    "welcome": "Welcome to our <1>warm store</1>",
+    "description": "Over 100 handmade knitted items with fast delivery throughout Europe",
+    "toCatalog": "To Catalog",
+    "aboutUs": "About Us",
+    "happy": "Happy Clients",
+    "support": "Support",
+    "guarantee": "Quality Guarantee",
+    "freeShipping": "Free shipping",
+    "freeShippingCondition": "On orders over $30",
+    "fastDelivery": "Fast delivery",
+    "fastDeliveryTime": "From 24 hours"
+  },
+  "header": {
+    "shopName": "Hat Shop",
+    "main": "Home",
+    "openAriaLabel": "Open navigation menu",
+    "closeAriaLabel": "Close navigation menu",
+    "catalog": "Catalog",
+    "benefits": "Benefits",
+    "reviews": "Reviews",
+    "contact": "Contacts",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile",
+    "cart": "Open cart",
+    "back": "Back",
+    "next": "Next"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "about": "About Us",
+    "delivery": "Pay and delivery",
+    "contacts": "Contacts",
+    "returns": "Returns",
+    "warranty": "Warranty",
+    "blog": "Blog",
+    "workingHours": "Mo-Fr",
+    "weekendsHours": "Sa-Su",
+    "companyName": "Warm Store",
+    "allRightsReserved": "All rights reserved",
+    "information": "Information",
+    "privacy": "Privacy",
+    "customerAgriment": "Customer agreement",
+    "sitemap": "Sitemap"
+  },
+  "benefits": {
+    "title": "Our Benefits",
+    "description": "We strive to make your shopping experience as enjoyable and convenient as possible.",
+    "item1": "Wide range of products",
+    "item1-description": "Over 50 high quality hand knitted items",
+    "item2": "Fast delivery",
+    "item2-description": "We deliver orders within 24 hours in the city and 1-3 days throughout the country",
+    "item3": "24/7 support",
+    "item3-description": "Our specialists are always in touch and ready to help you with any question."
+  },
+  "testimonials": {
+    "sectionTitle": "Our customers' reviews",
+    "sectionDescription": "Real customers' opinions about our store and products",
+    "productLabel": "Product",
+    "prevAriaLabel": "Previous review",
+    "nextAriaLabel": "Next review",
+    "goToAriaLabel": "Go to review {{number}}",
+    "customer1": {
+      "name": "Anna Smirnova",
+      "text": "This is the second time I've ordered from this store. I'm very happy with the quality of the products and the service. Fast delivery, everything arrives safe and sound. I'll recommend it to my friends!",
+      "product": "Hat 'Winter Comfort'"
+    },
+    "customer2": {
+      "name": "Dmitry Petrov",
+      "text": "I ordered a scarf, it was delivered the next day. The quality matches the description. Overall, I'm happy with the purchase.",
+      "product": "Scarf 'Alpine Snow'"
+    },
+    "customer3": {
+      "name": "Ekaterina Ivanova",
+      "text": "I accidentally found this store on the Internet and did not regret it! The hat + scarf set fit perfectly. Special thanks to the consultant for helping me choose.",
+      "product": "Set 'Northern Lights'"
+    },
+    "customer4": {
+      "name": "Alexey Sokolov",
+      "text": "I bought a warm hat, very happy. The material is high-quality, fits perfectly. The price is a little higher than competitors, but the quality is worth it.",
+      "product": "Hat 'Polar Explorer'"
+    },
+    "customer5": {
+      "name": "Marina Kozlova",
+      "text": "A good store with a large selection of knitted products. The scarf is very soft and warm. Overall, I am happy with the purchase and service.",
+      "product": "Scarf 'Cashmere Tenderness'"
+    }
+  },
+  "contactPage": {
+    "title": "Ready to help",
+    "description": "Do you have questions or suggestions? We are always in touch and ready to help!"
+  },
+  "contactInfo": {
+    "title": "Contact Information",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "addressTitle": "Address",
+    "workingHours": "Mon-Fri: 9:00 - 20:00, Sat-Sun: 10:00 - 18:00",
+    "telegramBotTitle": "Our Telegram Bot",
+    "telegramBotButton": "Start a chat with the bot"
+  },
+  "contactForm": {
+    "formTitle": "Contact Us",
+    "labels": {
+      "name": "Your Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Ivan Ivanov",
+      "email": "example@mail.com",
+      "phone": "+48 123 456 789",
+      "message": "Your message..."
+    },
+    "buttons": {
+      "sendMessage": "Send message",
+      "sending": "Sending..."
+    },
+    "toast": {
+      "successTitle": "Message sent",
+      "successDescription": "We will contact you shortly"
+    }
+  },
+  "cartModal": {
+    "title": "Your cart",
+    "clearCart": "Clear cart",
+    "closeAriaLabel": "Close cart",
+    "emptyCart": "Cart is empty",
+    "continueShopping": "Continue shopping",
+    "decreaseQuantityAriaLabel": "Decrease quantity",
+    "increaseQuantityAriaLabel": "Increase quantity",
+    "remove": "Remove",
+    "totalLabel": "Total",
+    "checkout": "Checkout"
+  },
+  "authModal": {
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "emailPlaceholder": "Enter your email",
+    "authError": "Authentication error",
+    "login": {
+      "title": "Login",
+      "button": "Login",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "No account yet?",
+      "success": "Login successful",
+      "or": "OR"
+    },
+    "register": {
+      "title": "Register",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your name",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "button": "Register",
+      "hasAccount": "Already have an account?",
+      "success": "Registration was successful. Confirm your email address."
+    },
+    "forgotPassword": {
+      "title": "Password Reset",
+      "description": "Enter your email and we will send you a link to reset your password.",
+      "enterEmail": "Enter your email to reset your password",
+      "sendResetLink": "Send reset link",
+      "resetLinkSent": "A password reset link has been sent to your email.",
+      "resetError": "Error requesting password reset",
+      "backToLogin": "Back to login"
+    },
+    "googleLogin": {
+      "button": "Login with Google",
+      "error": "Google login error",
+      "redirecting": "Redirecting to Google login page..."
+    },
+    "validation": {
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "Invalid email format",
+      "passwordRequired": "Please enter your password",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "nameRequired": "Please enter your name",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsDoNotMatch": "Passwords do not match"
+    }
+  },
+  "authSettings": {
+    "successAll": "Email and password updated. Check your email to confirm.",
+    "successEmail": "Email updated. Check your email to confirm",
+    "successPassword": "Password updated successfully",
+    "error": "Error",
+    "timeout": "Loading...",
+    "loading": "Saving...",
+    "title": "Change Email/Password",
+    "oldEmail": "Current email",
+    "oldPassword": "Old password",
+    "email": "New email",
+    "password": "New password",
+    "confirm": "Confirm password",
+    "cancel": "Exit without saving",
+    "save": "Save changes"
+  },
+  "profile": {
+    "title": "Your account",
+    "info": "Information about user",
+    "edit": "Edit profile",
+    "orders": "My orders",
+    "loading": "Loading user data...",
+    "warning": "Please log in to your account to view this page."
+  },
+  "orderFormModal": {
+    "title": "Order placement",
+    "name": "Enter your name",
+    "phone": "Enter a valid phone number",
+    "address": "Enter the address",
+    "errorNoUser": "Failed to load user data",
+    "serverError": "Server error",
+    "orderError": "Order placement error",
+    "orderSuccess": "Order successfully placed",
+    "labelName": "First and last name",
+    "labelPhone": "Phone number",
+    "labelAddress": "Delivery address",
+    "labelPayment": "Payment method",
+    "card": "Online card",
+    "cod": "Cash on delivery",
+    "pickup": "Pickup",
+    "total": "Amount:",
+    "loading": "Sending...",
+    "confirm": "Confirm order"
+  },
+  "adminOrders": {
+    "title": "Admin Dashboard - Orders",
+    "noOrders": "No orders",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email",
+    "amount": "Amount",
+    "status": "Status",
+    "actions": "Actions",
+    "details": "Details",
+    "delete": "Delete",
+    "loading": "Loading orders...",
+    "error": "Error: {{errorMessage}}",
+    "orderDeleted": "Order successfully deleted",
+    "deleteError": "Failed to delete order",
+    "deleteConfirmTitle": "Delete Order",
+    "deleteConfirmDescription": "Are you sure you want to delete this order? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmAction": "Delete"
+  },
+  "adminUsers": {
+    "title": "Admin Dashboard - Users",
+    "noUsers": "No users",
+    "id": "ID",
+    "email": "Email",
+    "role": "Role",
+    "created": "Created",
+    "actions": "Actions",
+    "delete": "Delete",
+    "loading": "Loading users...",
+    "error": "Error: {{errorMessage}}",
+    "deleteSuccess": "User successfully deleted",
+    "deleteError": "Failed to delete user",
+    "deleteConfirmTitle": "Delete User",
+    "deleteConfirmDescription": "Are you sure you want to delete this user? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmAction": "Delete",
+    "admin": "Admin",
+    "customer": "Customer"
+  },
+  "adminOrderDetail": {
+    "title": "Order Details #",
+    "loading": "Loading order data...",
+    "error": "Error",
+    "errorNoId": "Order ID not specified.",
+    "errorNotFound": "Order not found.",
+    "errorLoading": "Error loading order data.",
+    "errorUnknown": "An unknown error occurred.",
+    "errorUpdateStatus": "Error updating order status.",
+    "errorUpdateUnknown": "An unknown error occurred while updating status.",
+    "statusNoChange": "Status not changed or not selected.",
+    "statusUpdateSuccess": "Order status successfully updated!",
+    "backToOrders": "Back to orders",
+    "orderNotFound": "Order not found.",
+    "customerInfo": "Customer Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Delivery Address",
+    "notSpecified": "Not specified",
+    "paymentDeliveryDetails": "Payment and Delivery Details",
+    "createdAt": "Created at",
+    "totalAmount": "Order amount",
+    "paymentMethod": "Payment method",
+    "orderStatus": "Order Status",
+    "current": "Current",
+    "changeStatus": "Change status",
+    "selectNewStatus": "Select new status",
+    "saveStatus": "Save status",
+    "itemsInOrder": "Items in order",
+    "quantity": "Quantity",
+    "noItemsInfo": "No item information available.",
+    "statuses": {
+      "new": "New",
+      "pending": "Pending",
+      "paid": "Paid",
+      "delivered": "Delivered"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select language"
+  },
+  "adminProductForm": {
+    "editProduct": "Edit Product",
+    "newProduct": "New Product",
+    "nameLabel": "Name ({{language}})",
+    "namePlaceholder": "Product name in {{language}}",
+    "priceLabel": "Price ({{currency}})",
+    "pricePlaceholder": "0.00 {{currency}}",
+    "salePriceLabel": "Sale Price ({{currency}})",
+    "salePricePlaceholder": "0.00 {{currency}}",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Product category",
+    "quantityLabel": "Quantity",
+    "quantityPlaceholder": "0",
+    "imagesLabel": "Images (separated by commas without spaces!)",
+    "imagesPlaceholder": "Images separated by commas",
+    "isNewLabel": "New",
+    "isSaleLabel": "Sale",
+    "saveChanges": "Save Changes",
+    "createProduct": "Create Product",
+    "loading": "Loading...",
+    "errorLoadingProduct": "Failed to load product",
+    "errorSavingProduct": "Failed to save product",
+    "autoSaveNotice": "This form will automatically save your changes"
+  },
+  "adminProducts": {
+    "title": "Products",
+    "newProduct": "New Product",
+    "category": "Category",
+    "price": "Price",
+    "salePrice": "Sale Price",
+    "inStock": "In Stock",
+    "units": "unit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Delete this product?",
+    "errorLoading": "Error loading products",
+    "errorDeleting": "Error deleting product",
+    "errorDeletingAlert": "Error while deleting",
+    "errorUnknown": "Unknown error",
+    "loading": "Loading products...",
+    "error": "Error"
+  },
+  "payment": {
+    "checkingStatus": "Checking payment status...",
+    "errorNoSessionId": "Session ID not found",
+    "errorCheckingStatus": "Error checking payment status",
+    "errorPaymentNotCompleted":"Payment not completed. Status: {{status}}",
+    "errorUnknown": "An unknown error occurred",
+    "returnToCart": "Return to cart",
+    "successTitle": "Payment Successful!",
+    "successMessage": "Thank you for your order. Your payment has been processed successfully.",
+    "orderNumber": "Order #",
+    "continueShopping": "Continue Shopping"
+  },
+  "orderForm": {
+    "errorStripeKeyMissing": "ERROR: Environment variable VITE_STRIPE_PUBLISHABLE_KEY is not set!",
+    "errorServerResponse": "Server response error:",
+    "errorServer": "Server error: {{status}} {{statusText}}",
+    "creatingCheckoutSession": "Creating Stripe checkout session",
+    "redirectingToCheckout": "Redirecting to checkout",
+    "stripeRedirectError": "Stripe redirect error",
+    "paymentProcessingError": "Payment processing error",
+    "paymentError": "Payment error. Please try again."
+  },
+  "orderCard": {
+    "page": "Page",
+    "ofTotal": "of {{total}}",
+    "more": "more",
+    "noItems": "No items",
+    "total": "Total",
+    "paymentMethod": "Payment method",
+    "status": "Status",
+    "current": "Current",
+    "changeStatus": "Change status",
+    "selectNewStatus": "Select new status",
+    "saveStatus": "Save status",
+    "itemsInOrder": "Items in order",
+    "quantity": "Quantity",
+    "noItemsInfo": "No item information available."
+  },
+  "paymentMethods": {
+    "card": "Online card payment",
+    "cod": "Cash on delivery",
+    "pickup": "Pickup"
+  },
+  "orderStatuses": {
+    "new": "New",
+    "pending": "Pending",
+    "paid": "Paid",
+    "delivered": "Delivered"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close"
+  } 
+}

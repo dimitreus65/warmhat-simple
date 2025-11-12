@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# Build directories
+public/
+dist/
+dist-ssr/
+node_modules/
+
+# Generated files
+converted/
+originals/
+
+#development
+.env.local
+.vscode/
+.idea/

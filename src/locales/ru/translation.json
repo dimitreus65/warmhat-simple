@@ -1,0 +1,424 @@
+{
+  "catalogPage": {
+    "title": "Каталог товаров",
+    "description": "Мы предлагаем только качественные товары связанные вручную с быстрой доставкой по всей Европе",
+    "allCategories": "Все",
+    "hatsCategory": "Шапки",
+    "scarvesCategory": "Шарфы",
+    "combinationsCategory": "Комплекты",
+    "loading": "Загрузка товаров...",
+    "error": "Ошибка: {{errorMessage}}",
+    "showMore": "Показать больше товаров",
+    "addToCart": "Добавить в корзину"
+  },
+  "hero": {
+    "welcome": "Добро пожаловать в наш <1>теплый магазин</1>",
+    "description": "Более 100 наименований связанных вручную изделий с быстрой доставкой по всей Европе",
+    "toCatalog": "В каталог",
+    "aboutUs": "О нас",
+    "happy": "Счастливых клиентов",
+    "support": "Служба поддержки",
+    "guarantee": "Гарантия качества",
+    "freeShipping": "Бесплатная доставка",
+    "freeShippingCondition": "При заказе от $30",
+    "fastDelivery": "Быстрая доставка",
+    "fastDeliveryTime": "От 24 часов"
+  },
+  "header": {
+    "shopName": "Шапка Шоп",
+    "main": "Главная",
+    "openAriaLabel": "Открыть меню навигации",
+    "closeAriaLabel": "Закрыть меню навигации",
+    "catalog": "Каталог",
+    "benefits": "Преимущества",
+    "reviews": "Отзывы",
+    "contact": "Контакты",
+    "login": "Войти",
+    "logout": "Выйти",
+    "profile": "Профиль",
+    "cart": "Открыть корзину",
+    "back": "Назад",
+    "next": "Далее"
+  },
+  "footer": {
+    "navigation": "Навигация",
+    "about": "О нас",
+    "delivery": "Оплата и доставка",
+    "contacts": "Контакты",
+    "returns": "Возвраты",
+    "warranty": "Гарантия",
+    "blog": "Блог",
+    "workingHours": "Пн-Пт",
+    "weekendsHours": "Сб-Вс",
+    "companyName": "Warm Store",
+    "information": "Информация",
+    "allRightsReserved": "Все права защищены",
+    "privacy": "Конфиденциальность",
+    "customerAgriment": "Клиентское соглашение",
+    "sitemap": "Карта сайта"
+  },
+  "benefits": {
+    "title": "Наши преимущества",
+    "description": "Мы стремимся сделать ваш шопинг максимально приятным и удобным",
+    "item1": "Широкий ассортимент продукции",
+    "item1-description": "Более 50 высококачественных изделий ручной вязки",
+    "item2": "Быстрая доставка",
+    "item2-description": "Доставляем заказы в течение 24 часов по городу и 1-3 дней по стране",
+    "item3": "Круглосуточная поддержка",
+    "item3-description": "Наши специалисты всегда на связи и готовы помочь вам по любому вопросу."
+  },
+  "testimonials": {
+    "sectionTitle": "Отзывы наших клиентов",
+    "sectionDescription": "Мнения реальных покупателей о нашем магазине и товарах",
+    "productLabel": "Товар",
+    "prevAriaLabel": "Предыдущий отзыв",
+    "nextAriaLabel": "Следующий отзыв",
+    "goToAriaLabel": "Перейти к отзыву {{number}}",
+    "customer1": {
+      "name": "Анна Смирнова",
+      "text": "Уже второй раз заказываю в этом магазине. Очень довольна качеством товаров и сервисом. Доставка быстрая, всё приходит в целости и сохранности. Буду рекомендовать друзьям!",
+      "product": "Шапка 'Зимний Уют'"
+    },
+    "customer2": {
+      "name": "Дмитрий Петров",
+      "text": "Заказал шарф, доставили на следующий день. Качество соответствует описанию. В целом доволен покупкой.",
+      "product": "Шарф 'Альпийский Снег'"
+    },
+    "customer3": {
+      "name": "Екатерина Иванова",
+      "text": "Случайно нашла этот магазин в интернете и не пожалела! Комплект шапка+шарф идеально подошел. Отдельное спасибо консультанту за помощь с выбором.",
+      "product": "Комплект 'Северное Сияние'"
+    },
+    "customer4": {
+      "name": "Алексей Соколов",
+      "text": "Приобрел теплую шапку, очень доволен. Материал качественный, сидит отлично. Цена немного выше, чем у конкурентов, но качество того стоит.",
+      "product": "Шапка 'Полярник'"
+    },
+    "customer5": {
+      "name": "Марина Козлова",
+      "text": "Хороший магазин с большим выбором вязаных изделий. Шарф очень мягкий и теплый. В целом, я довольна покупкой и обслуживанием.",
+      "product": "Шарф 'Кашемировая Нежность'"
+    }
+  },
+  "contactPage": {
+    "title": "Готовы помочь",
+    "description": "У вас есть вопросы или предложения? Мы всегда на связи и готовы помочь!"
+  },
+  "contactInfo": {
+    "title": "Контактная информация",
+    "phoneTitle": "Телефон",
+    "emailTitle": "Email",
+    "addressTitle": "Адрес",
+    "workingHours": "Пн-Пт: 9:00 - 20:00, Сб-Вс: 10:00 - 18:00",
+    "telegramBotTitle": "Наш Телеграм-бот",
+    "telegramBotButton": "Начать чат с ботом"
+  },
+  "contactForm": {
+    "formTitle": "Связаться с нами",
+    "labels": {
+      "name": "Ваше имя",
+      "email": "Email",
+      "phone": "Телефон",
+      "message": "Сообщение"
+    },
+    "placeholders": {
+      "name": "Иван Иванов",
+      "email": "example@mail.com",
+      "phone": "+48 123 456 789",
+      "message": "Ваше сообщение..."
+    },
+    "buttons": {
+      "sendMessage": "Отправить сообщение",
+      "sending": "Отправка..."
+    },
+    "toast": {
+      "successTitle": "Сообщение отправлено",
+      "successDescription": "Мы свяжемся с вами в ближайшее время"
+    }
+  },
+  "cartModal": {
+    "title": "Ваша корзина",
+    "clearCart": "Очистить корзину",
+    "closeAriaLabel": "Закрыть корзину",
+    "emptyCart": "Корзина пуста",
+    "continueShopping": "Продолжить покупки",
+    "decreaseQuantityAriaLabel": "Уменьшить количество",
+    "increaseQuantityAriaLabel": "Увеличить количество",
+    "remove": "Удалить",
+    "totalLabel": "Всего",
+    "checkout": "Оформление заказа"
+  },
+  "authModal": {
+    "emailLabel": "Email",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "emailPlaceholder": "Введите адрес электронной почты",
+    "authError": "Ошибка аутентификации",
+    "login": {
+      "title": "Войти",
+      "button": "Войти",
+      "forgotPassword": "Забыли пароль?",
+      "noAccount": "Еще нет учетной записи?",
+      "success": "Вход выполнен успешно",
+      "or": "ИЛИ"
+    },
+    "register": {
+      "title": "Зарегистрироваться",
+      "nameLabel": "Имя",
+      "namePlaceholder": "Введите свое имя",
+      "confirmPasswordLabel": "Подтвердите пароль",
+      "confirmPasswordPlaceholder": "Подтвердите свой пароль",
+      "button": "Зарегистрироваться",
+      "hasAccount": "Уже есть учетная запись?",
+      "success": "Регистрация прошла успешно. Подтвердите адрес электронной почты."
+    },
+    "forgotPassword": {
+      "title": "Сброс пароля",
+      "description": "Введите свой адрес электронной почты, и мы отправим вам ссылку для сброса пароля",
+      "enterEmail": "Введите свой адрес электронной почты для сброса пароля",
+      "sendResetLink": "Отправить ссылку для сброса",
+      "resetLinkSent": "Ссылка для сброса пароля была отправлена ​​на ваш адрес электронной почты",
+      "resetError": "Ошибка запроса сброса пароля",
+      "backToLogin": "Вернуться к входу"
+    },
+    "googleLogin": {
+      "button": "Войти через Google",
+      "error": "Ошибка входа в Google",
+      "redirecting": "Перенаправление на страницу входа в Google..."
+    },
+    "validation": {
+      "emailRequired": "Введите email",
+      "emailInvalid": "Некорректный email",
+      "passwordRequired": "Введите пароль",
+      "passwordTooShort": "Пароль должен содержать минимум 6 символов",
+      "nameRequired": "Введите ваше имя",
+      "confirmPasswordRequired": "Подтвердите пароль",
+      "passwordsDoNotMatch": "Пароли не совпадают"
+    }
+  },
+  "authSettings": {
+    "successAll": "Email и пароль обновлены. Проверьте email для подтверждения.",
+    "successEmail": "Email обновлен. Проверьте email для подтверждения",
+    "successPassword": "Пароль успешно обновлен",
+    "error": "Ошибка",
+    "timeout": "Загрузка...",
+    "loading": "Сохранение...",
+    "title": "Изменить email/пароль",
+    "oldEmail": "Текущий email",
+    "oldPassword": "",
+    "email": "Новый email",
+    "password": "Новый пароль",
+    "confirm": "Подтвердите пароль",
+    "cancel": "Выйти без сохранения",
+    "save": "Сохранить изменения"
+  },
+  "profile": {
+    "title": "Ваша учетная запись",
+    "info": "Информация о пользователе",
+    "edit": "Редактировать профиль",
+    "orders": "Мои заказы",
+    "loading": "Загрузка данных пользователя...",
+    "warning": "Пожалуйста, войдите в свою учетную запись, чтобы просмотреть эту страницу."
+  },
+  "orderFormModal": {
+    "title": "Оформление заказа",
+    "name": "Введите ваше имя",
+    "phone": "Введите корректный номер телефона",
+    "address": "Введите адрес",
+    "errorNoUser": "Не удалось загрузить данные пользователя",
+    "serverError": "Ошибка сервера",
+    "orderError": "Ошибка оформления заказа",
+    "orderSuccess": "Заказ успешно оформлен",
+    "labelName": "Имя и фамилия",
+    "labelPhone": "Номер телефона",
+    "labelAddress": "Адрес доставки",
+    "labelPayment": "Способ оплаты",
+    "card": "Карта онлайн",
+    "cod": "Наложенный платёж",
+    "pickup": "Самовывоз",
+    "total": "Сумма:",
+    "loading": "Отправка...",
+    "confirm": "Подтвердить заказ"
+  },
+  "adminOrders": {
+    "title": "Админка — Заказы",
+    "noOrders": "Нет заказов",
+    "date": "Дата",
+    "name": "Имя",
+    "email": "Email",
+    "amount": "Сумма",
+    "status": "Статус",
+    "actions": "Действия",
+    "details": "Подробнее",
+    "delete": "Удалить",
+    "loading": "Загрузка заказов...",
+    "error": "Ошибка: {{errorMessage}}",
+    "orderDeleted": "Заказ успешно удален",
+    "deleteError": "Не удалось удалить заказ",
+    "deleteConfirmTitle": "Удалить заказ",
+    "deleteConfirmDescription": "Вы уверены, что хотите удалить этот заказ? Это действие нельзя отменить.",
+    "deleteConfirmCancel": "Отмена",
+    "deleteConfirmAction": "Удалить"
+  },
+  "adminUsers": {
+    "title": "Админка — Пользователи",
+    "noUsers": "Нет пользователей",
+    "id": "ID",
+    "email": "Email",
+    "role": "Роль",
+    "created": "Создан",
+    "actions": "Действия",
+    "delete": "Удалить",
+    "loading": "Загрузка пользователей...",
+    "error": "Ошибка: {{errorMessage}}",
+    "deleteSuccess": "Пользователь успешно удален",
+    "deleteError": "Не удалось удалить пользователя",
+    "deleteConfirmTitle": "Удалить пользователя",
+    "deleteConfirmDescription": "Вы уверены, что хотите удалить этого пользователя? Это действие нельзя отменить.",
+    "deleteConfirmCancel": "Отмена",
+    "deleteConfirmAction": "Удалить",
+    "admin": "Администратор",
+    "customer": "Клиент"
+  },
+  "adminOrderDetail": {
+    "title": "Детали заказа №",
+    "loading": "Загрузка данных заказа...",
+    "error": "Ошибка",
+    "errorNoId": "ID заказа не указан.",
+    "errorNotFound": "Заказ не найден.",
+    "errorLoading": "Ошибка при загрузке данных заказа.",
+    "errorUnknown": "Произошла неизвестная ошибка.",
+    "errorUpdateStatus": "Ошибка обновления статуса заказа.",
+    "errorUpdateUnknown": "Произошла неизвестная ошибка при обновлении статуса.",
+    "statusNoChange": "Статус не изменен или не выбран.",
+    "statusUpdateSuccess": "Статус заказа успешно обновлен!",
+    "backToOrders": "Вернуться к заказам",
+    "orderNotFound": "Заказ не найден.",
+    "customerInfo": "Информация о клиенте",
+    "name": "Имя",
+    "email": "Email",
+    "phone": "Телефон",
+    "address": "Адрес доставки",
+    "notSpecified": "Не указано",
+    "paymentDeliveryDetails": "Детали платежа и доставки",
+    "createdAt": "Дата создания",
+    "totalAmount": "Сумма заказа",
+    "paymentMethod": "Метод оплаты",
+    "orderStatus": "Статус заказа",
+    "current": "Текущий",
+    "changeStatus": "Изменить статус",
+    "selectNewStatus": "Выберите новый статус",
+    "saveStatus": "Сохранить статус",
+    "itemsInOrder": "Товары в заказе",
+    "quantity": "Количество",
+    "noItemsInfo": "Информация о товарах отсутствует.",
+    "statuses": {
+      "new": "Новый",
+      "pending": "В обработке",
+      "paid": "Оплачен",
+      "delivered": "Доставлен"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Выбрать язык"
+  },
+  "adminProductForm": {
+    "editProduct": "Редактировать товар",
+    "newProduct": "Новый товар",
+    "nameLabel": "Название ({{language}})",
+    "namePlaceholder": "Название товара на {{language}}",
+    "priceLabel": "Цена ({{currency}})",
+    "pricePlaceholder": "0.00 {{currency}}",
+    "salePriceLabel": "Цена со скидкой ({{currency}})",
+    "salePricePlaceholder": "0.00 {{currency}}",
+    "categoryLabel": "Категория",
+    "categoryPlaceholder": "Категория товара",
+    "quantityLabel": "Количество",
+    "quantityPlaceholder": "0",
+    "imagesLabel": "Изображения (разделенные запятыми без пробелов!)",
+    "imagesPlaceholder": "Изображения через запятую",
+    "isNewLabel": "Новинка",
+    "isSaleLabel": "Скидка",
+    "saveChanges": "Сохранить изменения",
+    "createProduct": "Создать товар",
+    "loading": "Загрузка...",
+    "errorLoadingProduct": "Не удалось загрузить товар",
+    "errorSavingProduct": "Не удалось сохранить товар",
+    "autoSaveNotice": "Эта форма автоматически сохранит ваши изменения"
+  },
+  "adminProducts": {
+    "title": "Товары",
+    "newProduct": "Новый товар",
+    "category": "Категория",
+    "price": "Цена",
+    "salePrice": "Скидка",
+    "inStock": "В наличии",
+    "units": "шт.",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "confirmDelete": "Удалить этот товар?",
+    "errorLoading": "Ошибка загрузки товаров",
+    "errorDeleting": "Ошибка удаления",
+    "errorDeletingAlert": "Ошибка при удалении",
+    "errorUnknown": "Неизвестная ошибка",
+    "loading": "Загрузка товаров...",
+    "error": "Ошибка"
+  },
+  "payment": {
+    "checkingStatus": "Проверка статуса платежа...",
+    "errorNoSessionId": "Не найден идентификатор сессии",
+    "errorCheckingStatus": "Ошибка при проверке статуса платежа",
+    "errorUnknown": "Произошла неизвестная ошибка",
+    "errorPaymentNotCompleted": "Платеж не завершен. Статус: {{status}}",
+    "returnToCart": "Вернуться в корзину",
+    "successTitle": "Оплата успешна!",
+    "successMessage": "Спасибо за ваш заказ. Ваш платеж успешно обработан.",
+    "orderNumber": "Заказ №",
+    "continueShopping": "Продолжить покупки"
+  },
+  "orderForm": {
+    "errorStripeKeyMissing": "ОШИБКА: Переменная окружения VITE_STRIPE_PUBLISHABLE_KEY не установлена!",
+    "errorServerResponse": "Ошибка ответа сервера:",
+    "errorServer": "Ошибка сервера: {{status}} {{statusText}}",
+    "creatingCheckoutSession": "Создание сессии оплаты Stripe",
+    "redirectingToCheckout": "Перенаправление на страницу оплаты",
+    "stripeRedirectError": "Ошибка перенаправления Stripe",
+    "paymentProcessingError": "Ошибка обработки платежа",
+    "paymentError": "Ошибка оплаты. Пожалуйста, попробуйте снова."
+  },
+  "orderCard": {
+    "page": "Страница",
+    "ofTotal": "из {{total}}",
+    "more": "more",
+    "noItems": "Нет товаров",
+    "total": "Всего",
+    "paymentMethod": "Способ оплаты",
+    "status": "Статус",
+    "current": "Текущий",
+    "changeStatus": "Изменить статус",
+    "selectNewStatus": "Выбрать новый статус",
+    "saveStatus": "Сохранить статус",
+    "itemsInOrder": "Товары в заказе",
+    "quantity": "Количество",
+    "noItemsInfo": "Информация о товарах отсутствует."
+  },
+  "paymentMethods": {
+    "card": "Оплата картой онлайн",
+    "cod": "Наложенный платеж",
+    "pickup": "Самовывоз"
+  },
+  "orderStatuses": {
+    "new": "Новый",
+    "pending": "В обработке",
+    "paid": "Оплачен",
+    "delivered": "Доставлен"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "submit": "Отправить",
+    "cancel": "Отмена",
+    "close": "Закрыть"
+  }
+}
+
