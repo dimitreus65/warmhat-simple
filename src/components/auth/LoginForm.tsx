@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
-import { Button } from "@/components/ui/button";
+import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
 import FormField from "../FormField";
-import { Input } from "@/components/ui/input";
+import  Input  from "@/components/ui/Input";
 import { cn } from "@/lib/utils";
 import { validateEmail, validatePassword } from "@/lib/validation";
 
@@ -43,7 +43,7 @@ export function LoginForm({ onSuccess, onSwitchMode }: LoginFormProps) {
         password: form.password,
       });
       if (error) throw error;
-      
+
       showSnackbar(t("authModal.login.success"), "success");
       onSuccess();
     } catch (err) {
@@ -79,7 +79,7 @@ export function LoginForm({ onSuccess, onSwitchMode }: LoginFormProps) {
           placeholder={t("authModal.emailPlaceholder")}
           className={cn(
             "w-full border p-2 rounded",
-            errors.email ? "border-red-500 focus:border-red-500 focus:ring-red-500" 
+            errors.email ? "border-red-500 focus:border-red-500 focus:ring-red-500"
                        : "border-gray-300 focus:border-shop-blue-dark focus:ring-shop-blue-dark"
           )}
         />
@@ -93,7 +93,7 @@ export function LoginForm({ onSuccess, onSwitchMode }: LoginFormProps) {
           placeholder={t("authModal.passwordPlaceholder")}
           className={cn(
             "w-full border p-2 rounded",
-            errors.password ? "border-red-500 focus:border-red-500 focus:ring-red-500" 
+            errors.password ? "border-red-500 focus:border-red-500 focus:ring-red-500"
                           : "border-gray-300 focus:border-shop-blue-dark focus:ring-shop-blue-dark"
           )}
         />
