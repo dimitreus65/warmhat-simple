@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingCart, Menu, X, ArrowLeft } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { ButtonSimple as Button } from '@/components/ui/ButtonSimple';
 import { cn } from '@/lib/utils';
 import {Link, useNavigate } from 'react-router-dom';
 import { useCart } from '@/hooks/use-cart';
@@ -11,7 +11,7 @@ import { User } from '@supabase/supabase-js'
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher'; // Импортируем переключатель
 // import ProfileModal from './ProfileModal'; // for Modal
- 
+
 interface HeaderProps {
   showBackButton?: boolean;
   // Consider adding a prop to pass the current page's path for active link styling
@@ -321,5 +321,5 @@ const Header: React.FC<HeaderProps> = ({ showBackButton = false, onBackClick }) 
     </header>
   );
 };
- 
+
 export default Header;
