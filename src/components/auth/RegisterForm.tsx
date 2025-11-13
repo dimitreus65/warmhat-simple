@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
-import { Button } from "@/components/ui/button";
+import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
 import FormField from "../FormField";
-import { Input } from "@/components/ui/input";
+import  Input  from "@/components/ui/Input";
 import { cn } from "@/lib/utils";
 import { validateName, validateEmail, validatePassword, validateConfirmPassword } from "@/lib/validation";
 
@@ -16,11 +16,11 @@ interface RegisterFormProps {
 export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
   const { t } = useTranslation();
   const { showSnackbar } = useSnackbar();
-  const [form, setForm] = useState({ 
-    name: "", 
-    email: "", 
-    password: "", 
-    confirmPassword: "" 
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    password: "",
+    confirmPassword: ""
   });
   const [errors, setErrors] = useState({
     name: "",
@@ -59,7 +59,7 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
           },
         },
       });
-      
+
       if (error) throw error;
       showSnackbar(t("authModal.register.success"), "success");
       onSuccess();
@@ -86,7 +86,7 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
           )}
         />
       </FormField>
-      
+
       <FormField label="Email" error={errors.email}>
         <Input
           name="email"
@@ -101,7 +101,7 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
           )}
         />
       </FormField>
-      
+
       <FormField label={t("authModal.passwordLabel")} error={errors.password}>
         <Input
           name="password"
@@ -116,9 +116,9 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
           )}
         />
       </FormField>
-      
-      <FormField 
-        label={t("authModal.register.confirmPasswordPlaceholder")} 
+
+      <FormField
+        label={t("authModal.register.confirmPasswordPlaceholder")}
         error={errors.confirmPassword}
       >
         <Input
