@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import { isEmail } from '@/lib/validation';
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
-import { Button } from "@/components/ui/button";
+import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
 import FormField from "../FormField";
-import { Input } from "@/components/ui/input";
+import Input  from "@/components/ui/Input";
 
 interface ForgotPasswordFormProps {
   onSuccess: () => void;
@@ -32,7 +32,7 @@ export function ForgotPasswordForm({ onSuccess, onSwitchMode }: ForgotPasswordFo
       const { error } = await supabase.auth.resetPasswordForEmail(email, {
         redirectTo: redirectUrl,
       });
-      
+
       if (error) throw error;
       showSnackbar(t("authModal.forgotPassword.resetLinkSent"), "info");
       onSuccess();
@@ -48,7 +48,7 @@ export function ForgotPasswordForm({ onSuccess, onSwitchMode }: ForgotPasswordFo
       <p className="text-sm text-gray-600 mb-4">
         {t("authModal.forgotPassword.description")}
       </p>
-      
+
       <FormField label={t("authModal.emailLabel")}>
         <Input
           name="resetEmail"
