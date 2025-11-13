@@ -2,8 +2,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
+import AuthFormLayout from "../AuthFormLayout";
 import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
-import FormField from "../FormField";
+import FormField from "@/components/FormField";
 import  Input  from "@/components/ui/Input";
 import { cn } from "@/lib/utils";
 import { validateEmail, validatePassword } from "@/lib/validation";
@@ -68,8 +69,8 @@ export function LoginForm({ onSuccess, onSwitchMode }: LoginFormProps) {
   };
 
   return (
-    <>
-      <h2 className="text-xl font-bold mb-4">{t("authModal.login.title")}</h2>
+    // <>
+      <AuthFormLayout title={t("authModal.login.title")} showDivider>
       <FormField label="Email" error={errors.email}>
         <Input
           name="email"
@@ -137,6 +138,7 @@ export function LoginForm({ onSuccess, onSwitchMode }: LoginFormProps) {
           {t("authModal.login.noAccount")}
         </Button>
       </div>
-    </>
+    {/* </> */}
+    </AuthFormLayout>
   );
 }

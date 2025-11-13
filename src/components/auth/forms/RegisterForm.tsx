@@ -3,10 +3,11 @@ import { useTranslation } from "react-i18next";
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
 import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
-import FormField from "../FormField";
+import FormField from "@/components/FormField";
 import  Input  from "@/components/ui/Input";
 import { cn } from "@/lib/utils";
 import { validateName, validateEmail, validatePassword, validateConfirmPassword } from "@/lib/validation";
+import AuthFormLayout from "../AuthFormLayout";
 
 interface RegisterFormProps {
   onSuccess: () => void;
@@ -70,7 +71,8 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
   };
 
   return (
-    <>
+    // <>
+    <AuthFormLayout title={t("authModal.register.title")}>
       <h2 className="text-xl font-bold mb-4">{t("authModal.register.title")}</h2>
       <FormField label={t("authModal.register.nameLabel")} error={errors.name}>
         <Input
@@ -150,6 +152,7 @@ export function RegisterForm({ onSuccess, onSwitchMode }: RegisterFormProps) {
           {t("authModal.register.hasAccount")}
         </Button>
       </div>
-    </>
+    {/* </> */}
+    </AuthFormLayout>
   );
 }

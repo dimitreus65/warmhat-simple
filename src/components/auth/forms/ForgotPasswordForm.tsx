@@ -4,8 +4,9 @@ import { isEmail } from '@/lib/validation';
 import { useSnackbar } from "@/hooks/use-snackbar";
 import { supabase } from "@/lib/supabase-client";
 import { ButtonSimple as Button } from "@/components/ui/ButtonSimple";
-import FormField from "../FormField";
+import FormField from "@/components/FormField";
 import Input  from "@/components/ui/Input";
+import AuthFormLayout from "../AuthFormLayout";
 
 interface ForgotPasswordFormProps {
   onSuccess: () => void;
@@ -43,11 +44,10 @@ export function ForgotPasswordForm({ onSuccess, onSwitchMode }: ForgotPasswordFo
   };
 
   return (
-    <>
-      <h2 className="text-xl font-bold mb-4">{t("authModal.forgotPassword.title")}</h2>
-      <p className="text-sm text-gray-600 mb-4">
-        {t("authModal.forgotPassword.description")}
-      </p>
+      <AuthFormLayout
+    title={t("authModal.forgotPassword.title")}
+    description={t("authModal.forgotPassword.description")}
+  >
 
       <FormField label={t("authModal.emailLabel")}>
         <Input
@@ -75,6 +75,6 @@ export function ForgotPasswordForm({ onSuccess, onSwitchMode }: ForgotPasswordFo
           {t("authModal.forgotPassword.backToLogin")}
         </Button>
       </div>
-    </>
+      </AuthFormLayout>
   );
 }
